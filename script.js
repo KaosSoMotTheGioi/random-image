@@ -6,4 +6,4 @@ const images = [
 
 const randomImage = images[Math.floor(Math.random() * images.length)];
 
-document.getElementById('random-image').src = randomImage;
+document.getElementById('random-image').src = image;
